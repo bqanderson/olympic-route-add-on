@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="olympicsApp">
+  <head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,900,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/angular-route/angular-route.min.js"></script>
+    <script src="scripts/client.js" charset="uft-8"></script>
+    <base href="/" />
+
+    <title>Olympic Sports Team All-Stars</title>
+  </head>
+  <body>
+    <div class="page-header">
+      <h1>Olympic Sports Team All-Stars: <small>Select a tab to see your favorite sport's All-Star.</small></h1>
+    </div>
+
+    <ul class="nav nav-tabs nav-justified">
+      <li role="presentation"><a href="/badminton">Badminton</a></li>
+      <li role="presentation"><a href="/fencing">Fencing</a></li>
+      <li role="presentation"><a href="/equestrian">Equestrian</a></li>
+      <li role="presentation"><a href="/archery">Archery</a></li>
+      <li role="presentation"><a href="/sailing">Sailing</a></li>
+    </ul>
+    <div class="display-section" ng-view>
+
+    </div>
+
+  </body>
+</html>

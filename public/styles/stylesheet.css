@@ -1,0 +1,69 @@
+/*My styles start here*/
+body {
+  font-family: 'Lato', sans-serif;
+	background: lightsteelblue;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: aliceblue;
+}
+
+h1 small {
+  text-transform: none;
+  color: firebrick;
+}
+
+h3.sportName {
+	font-size: 1.25em;
+	font-weight: 900;
+	color: firebrick;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 1px solid firebrick;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.page-header {
+  background: midnightblue;
+  padding: 5px;
+}
+
+.display-section {
+  height: 600px;
+  background: white;
+}
+
+.list-group {
+  background: steelblue;
+}
+
+.athleteList {
+	display: inline-block;
+}
+
+.photo {
+  text-align: center;
+}
+
+.image {
+  padding: 5px
+  border: 1px solid firebrick;
+}
+
+.athlete {
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.hometown {
+  line-height: normal;
+	text-align: center;
+}
